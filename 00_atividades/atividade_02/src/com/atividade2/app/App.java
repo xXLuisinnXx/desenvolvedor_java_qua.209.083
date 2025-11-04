@@ -11,9 +11,9 @@ public class App {
 
         // entrada de dados
         System.out.println("Informe o coeficiente A:");
-        a = leia.nextInt();
+        a = leia.nextDouble();
         System.out.println("Informe o coeficiente B:");
-        b = leia.nextInt();
+        b = leia.nextDouble();
         
         // saida de dados
         if(a == 0){

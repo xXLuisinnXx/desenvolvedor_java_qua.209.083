@@ -19,7 +19,7 @@ public class App {
         dn = leia.nextLine();
         System.out.println("Informe seu e-mail:");
         email = leia.nextLine();
-        System.out.println("Informe seu cpf (Somente os números):");
+        System.out.println("Informe seu cpf:");
         cpf = leia.nextLine();
         System.out.println("Informe seu telefone:");
         telefone = leia.nextLine();
