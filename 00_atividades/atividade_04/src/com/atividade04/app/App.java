@@ -4,7 +4,9 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner leia = new Scanner(System.in);
         // declaração de variaveis
-        
+        String[] salas = new String[5];
+        String sala;
+        String filme = "";
         String nome;
         int idade;
         int verifica =0;
@@ -98,5 +100,7 @@ public class App {
 
         // fecha objeto leia
         leia.close();
+    
     }
 }
+
