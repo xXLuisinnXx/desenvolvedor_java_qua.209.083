@@ -15,7 +15,7 @@ public class PessoaFisica extends Pessoa {
     }
 
     //metodos 
-    public void exibirDados(){
+    public void exbirDados(){
         System.out.println("Nome: "+this.nome);
         System.out.println("Cpf: "+this.cpf);
         System.out.println("Idade: "+this.idade);

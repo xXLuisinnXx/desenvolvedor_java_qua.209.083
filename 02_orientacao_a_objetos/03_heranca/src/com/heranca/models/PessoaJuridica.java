@@ -16,7 +16,7 @@ public class PessoaJuridica extends Pessoa {
     }
 
     //metodos
-    public void exibirDados(){
+    public void exbirDados(){
         System.out.println("Razão social: "+this.razaoSocial);
         System.out.println("Nome da empresa: "+this.nomeFantasia);
         System.out.println("CNPJ: "+this.cnpj);
