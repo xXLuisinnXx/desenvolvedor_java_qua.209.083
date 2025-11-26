@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Luis Guilherme">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com CSS</title>
+
+    <!-- css externo -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <main>
+        <h1>Formulário</h1>
+        <hr>
+        <div>
+        <form>
+            <label >Nome:</label>
+            <input type="text">
+            <label>Data de nascimento:</label>
+            <input type="date" class="data-nascimento">
+            <label>CPF:</label>
+            <input type="text">
+            <label>Altura:</label>
+            <input type="number" step="0.01" class="altura">
+            <label>Peso:</label>
+            <input type="number" step="0.01" class="peso">
+            <label>Nome da mãe:</label>
+            <input type="text">
+            <label>Nome do pai:</label>
+            <input type="text">
+            <label>Profissão:</label>
+            <input type="text">
+            <label>Telefone:</label>
+            <input type="text">
+            <label>Gênero:</label>
+            <select class="genero">
+                <option>Escolha uma opção...</option>
+                <option>Masculino</option>
+                <option>Femino</option>
+                <option>Outro</option>
+                <option>Desejo não informar</option>
+            </select>
+            <label>Escolaridade:</label>
+            <select>
+                <option>Escolha uma opção...</option>
+                <option>Nível Fundamental</option>
+                <option>Nível Médio</option>
+                <option>Nível Superior</option>
+                <option>Pós-Graduação</option>
+                <option>Mestrado</option>
+                <option>Doutorado</option>
+             </select>
+             <label>Nascionalidade:</label>
+             <input type="text">
+             <label>Time do coração:</label>
+             <input type="text">
+             <label>Estado civíl:</label>
+             <select>
+                <option>Escolha uma opcão...</option>
+                <option>Solteiro</option>
+                <option>Casado</option>
+                <option>Divorciado</option>
+                <option>Viúvo</option>
+             </select>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+    </main>
+</body>
+</html>

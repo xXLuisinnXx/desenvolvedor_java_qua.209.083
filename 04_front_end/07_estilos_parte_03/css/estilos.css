@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin: 30px 100px;
+
+}
+form{
+    margin: 50px 15px;
+}
+label,button{
+    display: block;
+}
+label{
+    font-size: 20px;
+    margin: 5px 0px;
+}
+button{
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    margin:30px 0px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #3333b5;
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+input, select{
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #3333b5;
+    transition: 0.5s ease;
+    
+}
+input{
+    background: none;
+    font-size: 17px;
+    width: 550px;
+}
+
+input:focus, select:focus{
+    border-bottom: solid #5589c4;
+    transition: 0.5s ease;
+}
+select{
+    width: 250px;
+    background: none;
+}
+h1{
+    color: #3333b5;
+    text-shadow: 1px 1px 2px #3333b5;
+    font-size: 45px;
+}
+button:hover{
+    background-color: #FFFFFF;
+    color: #3333b5;
+    transition: 0.5s ease;
+}
+.data-nascimento{
+    width:170px ;
+}
+
+.altura, .peso{
+    width: 200px;
+}
+div{
+    margin: 0;
+    padding: 15px;
+    background-color: #16161d55;
+    width: 600px;
+    height: 1200px;
+    border-radius: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
