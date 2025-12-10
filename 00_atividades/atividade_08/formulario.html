@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Atividade 08</title>
+    <!-- meu css -->
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    <!-- css do bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg" style="background-color: #e23535;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Dados</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container">
+        <h1 class="mt-5">Cadastro</h1>
+        <h3 class="mt-5">Dados do usuário</h3>
+        <hr>
+        <!-- formulário -->
+        <form class="mt-5">
+            <div class="row">
+                <!-- nome -->
+                <div class="col-12 col-md-6 col-lg-4 mb-3">
+                    <label class="form-label">Nome Completo:</label>
+                    <input class="form-control" type="text" id="nome" placeholder="Primeiro nome"
+                        aria-label="default input example">
+                </div>
+
+                <!-- email -->
+                <div class="col-12 col-md-6 col-lg-8 mb-3">
+                    <label class="form-label">E-mail:</label>
+                    <input class="form-control" type="email" id="email" placeholder="usuario@servidor.com"
+                        aria-label="default input example">
+                </div>
+
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label">Gênero:</label>
+                    <select class="form-select" id="genero" aria-label="Default select example">
+                        <option selected>Escolha uma opção...</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Outro</option>
+                        <option value="4">Não desejo informar</option>
+                    </select>
+                </div>
+
+                <!-- data de nascimento -->
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label">Data de Nascimento:</label>
+                    <input class="form-control" type="date" id="data" idaria-label="default input example">
+                </div>
+
+                <!-- telefone -->
+                <div class="col-12 col-md-4 col-lg-3 mb-3">
+                    <label class="form-label">Telefone:</label>
+                    <input class="form-control" type="tel" id="telefone" placeholder="(00)90000-0000"
+                        aria-label="default input example">
+                </div>
+            
+                
+
+                <!-- profissão -->
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label">Peso:</label>
+                    <input class="form-control" type="number" id="peso" placeholder="Informe o peso em KG"
+                        aria-label="default input example">
+                </div>
+
+                <!-- altura -->
+                <div class="col-12 col-md-4 mb-3">
+                    <label class="form-label">Altura:</label>
+                    <input class="form-control" type="number" id="altura" placeholder="Informe em metros"
+                        aria-label="default input example">
+                </div>
+            </div>
+            <!-- fim da row -->
+            
+                <!-- botao -->
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary mt-5 mb-5">Calcular</button>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <h2 id="result"></h2>
+    </main>
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- meu js -->
+    <script src="js/codigo.js"></script>
+  </body>
+</html>

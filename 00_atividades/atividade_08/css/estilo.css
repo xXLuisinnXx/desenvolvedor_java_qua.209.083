@@ -1,0 +1,18 @@
+.container{
+    background-image: url("/00_atividades/atividade_08/img/images.jfif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.texto-main{
+    background-color: #16161d96;
+    padding: 15px;
+    width: 650px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    
+}
