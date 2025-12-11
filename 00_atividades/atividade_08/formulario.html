@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/estilo.css" type="text/css">
     <!-- css do bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/png">
   </head>
   <body>
     
@@ -50,10 +52,10 @@
                     <label class="form-label">Gênero:</label>
                     <select class="form-select" id="genero" aria-label="Default select example">
                         <option selected>Escolha uma opção...</option>
-                        <option value="1">Masculino</option>
-                        <option value="2">Feminino</option>
-                        <option value="3">Outro</option>
-                        <option value="4">Não desejo informar</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outro</option>
+                        <option value="Não desejo informar">Não desejo informar</option>
                     </select>
                 </div>
 
@@ -72,17 +74,17 @@
             
                 
 
-                <!-- profissão -->
+                <!-- peso-->
                 <div class="col-12 col-md-4 mb-3">
                     <label class="form-label">Peso:</label>
-                    <input class="form-control" type="number" id="peso" placeholder="Informe o peso em KG"
+                    <input class="form-control" type="number" id="peso" step="0.01" placeholder="Informe o peso em KG"
                         aria-label="default input example">
                 </div>
 
                 <!-- altura -->
                 <div class="col-12 col-md-4 mb-3">
                     <label class="form-label">Altura:</label>
-                    <input class="form-control" type="number" id="altura" placeholder="Informe em metros"
+                    <input class="form-control" type="number" id="altura" step="0.01" placeholder="Informe em metros"
                         aria-label="default input example">
                 </div>
             </div>
@@ -90,7 +92,7 @@
             
                 <!-- botao -->
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-primary mt-5 mb-5">Calcular</button>
+                    <button type="submit" class="btn btn-danger mt-5 mb-5">Calcular</button>
                 </div>
             </div>
         </form>

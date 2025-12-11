@@ -1,18 +1,21 @@
-.container{
+.container-home{
     background-image: url("/00_atividades/atividade_08/img/images.jfif");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 100vh;
+    position: relative;
     
 }
 
 .texto-main{
     background-color: #16161d96;
+    text-align: center;
     padding: 15px;
-    width: 650px;
+    width: 550px;
     border-radius: 30px;
-    display: flex;
-    align-items: center;
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
