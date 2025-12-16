@@ -29,6 +29,7 @@ const calcular = () => {
 }
 
 
+
 form.addEventListener('submit', function(event) {
     event.preventDefault();
     calcular();
