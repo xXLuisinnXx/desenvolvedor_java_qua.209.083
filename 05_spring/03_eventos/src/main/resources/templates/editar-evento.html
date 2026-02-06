@@ -16,25 +16,25 @@
     <!-- main -->
     <main>
         <div class="container mt-3">
-            <h1>Cadastrar Evento</h1>
+            <h1>Editar Evento</h1>
             <hr>
             <form class="mt-5" method="post">
                 <div class="row">
                     <div class="mb-3">
                         <label for="nome" class="form-label">Nome do evento:</label>
-                        <input type="text" class="form-control" id="nome" name="nome" required />
+                        <input type="text" class="form-control" id="nome" name="nome" th:value="${evento.nome}" required />
                     </div>
                     <div class="mb-3">
                         <label for="local" class="form-label">Local do evento:</label>
-                        <input type="text" class="form-control" id="local" name="local" required />
+                        <input type="text" class="form-control" id="local" name="local" th:value="${evento.local}" required />
                     </div>
                     <div class="mb-3">
                         <label for="data" class="form-label">Data do evento:</label>
-                        <input type="date" class="form-control" id="data" name="data" required />
+                        <input type="date" class="form-control" id="data" name="data" th:value="${evento.data != null ? #temporals.format(evento.data, 'dd/MM/yyyy')}" required />
                     </div>
                     <div class="mb-3">
                         <label for="hora" class="form-label">Hora do evento:</label>
-                        <input type="time" class="form-control" id="hora" name="hora" required />
+                        <input type="time" class="form-control" id="hora" name="hora" th:value="${evento.hora}" required />
                     </div>
                     <div class="mb-3">
                         <button type="submit" class="btn btn-secondary">Cadastrar evento</button>
