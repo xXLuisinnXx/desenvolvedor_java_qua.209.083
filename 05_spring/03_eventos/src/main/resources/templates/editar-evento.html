@@ -30,7 +30,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="data" class="form-label">Data do evento:</label>
-                        <input type="date" class="form-control" id="data" name="data" th:value="${evento.data != null ? #temporals.format(evento.data, 'dd/MM/yyyy')}" required />
+                        <input type="date" class="form-control" id="data" name="data" th:value="${evento.data != null ? #temporals.format(evento.data, 'yyyy-MM-dd') : ''}" required />
                     </div>
                     <div class="mb-3">
                         <label for="hora" class="form-label">Hora do evento:</label>
