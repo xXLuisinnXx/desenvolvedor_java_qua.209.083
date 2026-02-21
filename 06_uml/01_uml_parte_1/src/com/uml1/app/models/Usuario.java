@@ -1,6 +1,6 @@
 package com.uml1.app.models;
 
-import javax.xml.crypto.Data;
+import java.util.Date;
 
 public class Usuario {
 
